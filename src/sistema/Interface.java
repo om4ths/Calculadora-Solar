@@ -703,6 +703,8 @@ public class Interface extends javax.swing.JFrame {
         Campo_9.setText("");
         Campo_12.setText("");
         Campo_13.setText("");
+        Campo_14.setText("");
+        Campo_15.setText("");
     }//GEN-LAST:event_BotaoLimparActionPerformed
 
     private void jPanel1MouseDragged(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel1MouseDragged
