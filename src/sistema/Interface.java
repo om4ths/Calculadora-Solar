@@ -155,6 +155,7 @@ public class Interface extends javax.swing.JFrame {
         });
 
         jPanel3.setBackground(new java.awt.Color(1, 50, 67));
+        jPanel3.setForeground(new java.awt.Color(255, 255, 255));
 
         labelcustoinversor.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         labelcustoinversor.setForeground(new java.awt.Color(255, 255, 255));
@@ -171,14 +172,12 @@ public class Interface extends javax.swing.JFrame {
         jLabel14.setText("QUAL O VALOR(R$) DE 1UN DO INVERSOR:");
 
         Campo_14.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        Campo_14.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel17.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel17.setForeground(new java.awt.Color(255, 255, 255));
         jLabel17.setText("QUAL É A POTENCIA DO SEU INVERSOR(W):");
 
         Campo_15.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        Campo_15.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(255, 255, 255));
@@ -197,35 +196,30 @@ public class Interface extends javax.swing.JFrame {
         jLabel3.setText("QUAL É A POTENCIA DO SEU PAINEL SOLAR(W):");
 
         Campo_7.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        Campo_7.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("QUAL O VALOR(R$) DE 1UN DO PAINEL SOLAR:");
 
         Campo_8.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        Campo_8.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
         jLabel6.setText("QUAL O TAMNHO EM M² DO PAINEL SOLAR:");
 
         Campo_9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        Campo_9.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(255, 255, 255));
         jLabel9.setText("QUAL O PESO EM KG DO PAINEL SOLAR:");
 
         Campo_12.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        Campo_12.setForeground(new java.awt.Color(255, 255, 255));
 
         jLabel10.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("QUAL É A INCIDENCIA SOLAR W/m2:");
 
         Campo_1.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        Campo_1.setForeground(new java.awt.Color(255, 255, 255));
 
         BotaoLimpar.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         BotaoLimpar.setText("LIMPAR");
@@ -239,22 +233,16 @@ public class Interface extends javax.swing.JFrame {
         });
 
         Campo_2.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        Campo_2.setForeground(new java.awt.Color(255, 255, 255));
 
         Campo_3.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        Campo_3.setForeground(new java.awt.Color(255, 255, 255));
 
         Campo_4.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        Campo_4.setForeground(new java.awt.Color(255, 255, 255));
 
         Campo_5.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        Campo_5.setForeground(new java.awt.Color(255, 255, 255));
 
         Campo_6.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        Campo_6.setForeground(new java.awt.Color(255, 255, 255));
 
         Campo_13.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        Campo_13.setForeground(new java.awt.Color(255, 255, 255));
 
         BotaoCalcular.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
         BotaoCalcular.setText("CALCULAR");
@@ -419,11 +407,6 @@ public class Interface extends javax.swing.JFrame {
                                 .addGap(0, 0, Short.MAX_VALUE))
                             .addGroup(jPanel3Layout.createSequentialGroup()
                                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel3Layout.createSequentialGroup()
-                                        .addComponent(jLabel35)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(labelinversor, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(123, 123, 123))
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                                         .addComponent(jLabel13)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -449,17 +432,24 @@ public class Interface extends javax.swing.JFrame {
                                         .addComponent(labelcustoinversor, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addGap(99, 99, 99))
                                     .addGroup(jPanel3Layout.createSequentialGroup()
-                                        .addComponent(jLabel22)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(labelCustoPainel, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(jPanel3Layout.createSequentialGroup()
-                                        .addComponent(jLabel31)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(labelArea, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(jPanel3Layout.createSequentialGroup()
-                                        .addComponent(jLabel33)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(labelPeso, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(jPanel3Layout.createSequentialGroup()
+                                                .addComponent(jLabel35)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(labelinversor, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addGroup(jPanel3Layout.createSequentialGroup()
+                                                .addComponent(jLabel22)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(labelCustoPainel, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addGroup(jPanel3Layout.createSequentialGroup()
+                                                .addComponent(jLabel31)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(labelArea, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addGroup(jPanel3Layout.createSequentialGroup()
+                                                .addComponent(jLabel33)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(labelPeso, javax.swing.GroupLayout.PREFERRED_SIZE, 61, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addGap(10, 10, 10)))
                                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                                         .addGap(166, 166, 166)
@@ -555,38 +545,36 @@ public class Interface extends javax.swing.JFrame {
                                     .addGroup(jPanel3Layout.createSequentialGroup()
                                         .addComponent(jLabel13)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                             .addComponent(jLabel12)
                                             .addComponent(labelPainel, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                             .addComponent(jLabel15)
                                             .addComponent(labelConsumoDiario, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                            .addComponent(jLabel27, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(jLabel27)
                                             .addComponent(labelPotencia, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                             .addComponent(jLabel22)
                                             .addComponent(labelCustoPainel, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                     .addComponent(labelConsumo, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(jLabel31)
                                     .addComponent(labelArea, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel3Layout.createSequentialGroup()
-                                        .addComponent(labelPeso, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(5, 5, 5)
-                                        .addComponent(labelcustoinversor, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addGroup(jPanel3Layout.createSequentialGroup()
-                                        .addComponent(jLabel33)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(jLabel34)))
+                                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jLabel33)
+                                    .addComponent(labelPeso, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jLabel34)
+                                    .addComponent(labelcustoinversor, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(jLabel35)
                                     .addComponent(labelinversor, javax.swing.GroupLayout.PREFERRED_SIZE, 14, javax.swing.GroupLayout.PREFERRED_SIZE))))
                         .addGap(144, 144, 144))))
